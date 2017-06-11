@@ -1,10 +1,19 @@
-﻿namespace ComicBookGallary.Controllers
+﻿using System;
+using System.Web.Mvc;
+
+namespace ComicBookGallary.Controllers
 {
     public class ComicBooksController : System.Web.Mvc.Controller
     {
-        public string Detail()
+        public ActionResult Detail()
         {
-            return "Hello from the controller";
+            if (DateTime.Today.DayOfWeek == DayOfWeek.Saturday)
+            {
+                return Redirect("/");
+            };
+
+            return Content("Hello from the controller");
+            
         }
     }
 }
