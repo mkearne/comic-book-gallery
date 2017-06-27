@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace ComicBookGallary.Models
 {
@@ -11,4 +12,4 @@ namespace ComicBookGallary.Models
         public string Role { get; set; }
 
     }
-}
+};
