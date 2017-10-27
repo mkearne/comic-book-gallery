@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ComicBookGallary.Controllers;
+
 
 namespace ComicBookGallary.Models
 {
-    public class comicBook
+    public class ComicBook
     {
         public int Id { get; set; }
         public string SeriesTitle { get; set; }

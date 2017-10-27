@@ -125,6 +125,8 @@
     <Content Include="obj\Debug\ComicBookGallary.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\ComicBookGallary.dll" />
     <Content Include="obj\Debug\ComicBookGallary.pdb" />
+    <Content Include="obj\Release\ComicBookGallary.dll" />
+    <Content Include="obj\Release\ComicBookGallary.pdb" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="bin\ComicBookGallary.dll.config" />
     <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
@@ -132,6 +134,7 @@
     <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
     <Content Include="obj\Debug\ComicBookGallary.csprojResolveAssemblyReference.cache" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Release\CoreCompileInputs.cache" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -141,6 +144,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ComicBooksController.cs" />
+    <Compile Include="Data\ComicBookRepository.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

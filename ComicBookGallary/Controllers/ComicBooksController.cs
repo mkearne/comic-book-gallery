@@ -1,13 +1,34 @@
-﻿using ComicBookGallary.Models;
+<<<<<<< HEAD
+﻿using System;
+=======
+﻿using ComicBookGallary.Data;
+using ComicBookGallary.Models;
+>>>>>>> 5a82645e9c6557e7608d0f87552e2cf927211469
 using System.Web.Mvc;
+using ComicBookGallary.Data;
+using ComicBookGallary.Models;
+
+
 
 namespace ComicBookGallary.Controllers
 {
     public class ComicBooksController : System.Web.Mvc.Controller
     {
-        public ActionResult Detail()
+        private ComicBookRepository _comicBookRepository = null;
+
+        public ComicBooksController()
         {
-            var comicBook = new comicBook()
+            _comicBookRepository = new ComicBookRepository();
+        }
+
+        public ActionResult Detail(int? id)
+        {
+            if (id == null)
+            {
+                return HttpNotFound();
+            }
+        
+            var comicBook = new ComicBook()
             {
                 SeriesTitle = "The Amazing Spiderman",
                 IssueNumber = 700,
