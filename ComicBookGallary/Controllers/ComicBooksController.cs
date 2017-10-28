@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 ﻿using System;
-=======
 ﻿using ComicBookGallary.Data;
 using ComicBookGallary.Models;
->>>>>>> 5a82645e9c6557e7608d0f87552e2cf927211469
 using System.Web.Mvc;
 using ComicBookGallary.Data;
 using ComicBookGallary.Models;
