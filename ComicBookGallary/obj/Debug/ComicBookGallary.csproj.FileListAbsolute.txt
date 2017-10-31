@@ -16,3 +16,10 @@ C:\Users\mitch.kearney\Source\Repos\comic-book-gallery\ComicBookGallary\bin\Comi
 C:\Users\mitch.kearney\Source\Repos\comic-book-gallery\ComicBookGallary\obj\Debug\ComicBookGallary.csprojResolveAssemblyReference.cache
 C:\Users\mitch.kearney\Source\Repos\comic-book-gallery\ComicBookGallary\obj\Debug\ComicBookGallary.dll
 C:\Users\mitch.kearney\Source\Repos\comic-book-gallery\ComicBookGallary\obj\Debug\ComicBookGallary.pdb
+C:\Users\mitch.kearney\Source\Repos\comic-book-gallery\ComicBookGallary\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mitch.kearney\Source\Repos\comic-book-gallery\ComicBookGallary\bin\System.Web.Razor.xml
+C:\Users\mitch.kearney\Source\Repos\comic-book-gallery\ComicBookGallary\bin\System.Web.Webpages.xml
+C:\Users\mitch.kearney\Source\Repos\comic-book-gallery\ComicBookGallary\bin\System.Web.Webpages.Deployment.xml
+C:\Users\mitch.kearney\Source\Repos\comic-book-gallery\ComicBookGallary\bin\System.Web.Webpages.Razor.xml
+C:\Users\mitch.kearney\Source\Repos\comic-book-gallery\ComicBookGallary\bin\System.Web.Helpers.xml
+C:\Users\mitch.kearney\Source\Repos\comic-book-gallery\ComicBookGallary\bin\System.Web.Mvc.xml
