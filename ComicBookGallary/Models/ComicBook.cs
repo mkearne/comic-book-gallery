@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace ComicBookGallary.Models
 {
-    public class comicBook
+    public class ComicBook
     {
         public int Id { get; set; }
         public string SeriesTitle { get; set; }
